@@ -1,7 +1,4 @@
 node_modules/
-
-# Maven target folders
-**/target/
-
-# Node/React build output
-ui.frontend/build/
+build
+target
+node
