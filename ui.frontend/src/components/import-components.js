@@ -75,6 +75,10 @@ MapTo('honda/components/accordion')(AccordionV1, {isEmpty: AccordionV1IsEmptyFn}
 MapTo('honda/components/carousel')(CarouselV1, {isEmpty: CarouselV1IsEmptyFn});
 MapTo('honda/components/container')(ContainerV1, {isEmpty: ContainerV1IsEmptyFn});
 
+const LoginComponent = withAsyncImport(() => import('./Login/LoginComponent'));
+MapTo('honda/components/login')(LoginComponent);
+
+
 
 //lazy load of internal component (hello world)
 
