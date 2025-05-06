@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './LoginComponent.css'; // Optional: for styling
-import { MapTo } from '@adobe/cq-react-editable-components';
-
 const LoginComponent = (props) => {
     const [dealerNumber, setDealerNumber] = useState('');
     const [userId, setUserId] = useState('');
