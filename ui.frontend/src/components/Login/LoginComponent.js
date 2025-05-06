@@ -57,4 +57,4 @@ const LoginComponent = (props) => {
 };
 
 // 🔗 Correctly map to AEM component resource type
-export default MapTo('honda/components/login')(LoginComponent);
+export default LoginComponent;
