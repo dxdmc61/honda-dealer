@@ -10,7 +10,16 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  justify-content: space-between; /* This ensures the header, content, and footer are spaced properly */
+  justify-content: space-between; /* Ensures header, content, and footer are spaced properly */
+}
+
+.honda-logo {
+  width: 100%; /* Make logo full width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 200px; /* Optional: you can set a max width if desired */
+  margin-bottom: 20px;
+  display: block;
+  object-fit: contain; /* Ensures logo fits within container */
 }
 
 .login-header {
@@ -20,18 +29,6 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-.honda-logo {
-  margin-bottom: 10px;
-  width:100%;
-  width:100%;display:grid;
-  justify-content:center;
-  background: #f8f8f8;
-  height:8vh;
-  min-height:40px;
-  /*position:absolute;*/
-  border-bottom:1px solid lightgrey;
-}
-
 .login-content {
   flex: 1;
   display: flex;
@@ -39,7 +36,6 @@ body {
   align-items: center;
   padding: 40px 20px;
   background-color: #fff;
-  min-height: 500px; /* Add this to control the minimum height */
 }
 
 .login-form-container {
@@ -110,11 +106,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%; /* Ensure the side image matches the login form height */
 }
 
 .login-side-image img {
-  max-width: 100%;
-  height: auto;
+  width: 100%; /* Make the side image full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure image covers the container without distorting */
 }
 
 .login-footer {
