@@ -1,4 +1,8 @@
 node_modules/
-build
-target
-node
+build/
+target/
+node/
+.classpath
+.project
+bin/
+temp/
