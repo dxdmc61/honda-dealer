@@ -1,0 +1,21 @@
+/*Honda Navigation.css*/
+
+.tab-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  background: #f5f5f5;
+}
+.tab-list li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.tab-list li.active {
+  background: #007bff;
+  color: white;
+}
+.tab-content {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
