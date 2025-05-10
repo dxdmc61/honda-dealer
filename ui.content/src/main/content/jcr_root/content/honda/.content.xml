@@ -4,8 +4,8 @@
     <jcr:content
         cq:allowedTemplates="[/conf/honda/settings/wcm/templates/(?!xf-).*]"
         cq:conf="/conf/honda"
-        cq:redirectTarget="/content/honda/us/en/home"
-        cq:template="/conf/honda/settings/wcm/templates/spa-app-template"
+        cq:redirectTarget="/content/honda/us/en"
+        cq:template="/conf/honda/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="Honda"
         sling:configRef="/conf/honda"

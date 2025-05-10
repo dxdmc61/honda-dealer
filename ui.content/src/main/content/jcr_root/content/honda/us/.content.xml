@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:redirectTarget="/content/honda/us/en"
-        cq:template="/conf/honda/settings/wcm/templates/spa-app-template"
+        cq:template="/conf/honda/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="us"
         sling:resourceType="honda/components/page"/>
