@@ -1,5 +1,5 @@
-<section class="global-searchbar">
-    <div class="component-container">
+<section class="globalNav global-searchbar">
+    <div class="component-container vpad-0">
         <div class="component-offset">
             <div class="content-container">
                 <div class="header-content">
@@ -8,8 +8,7 @@
                             <div class="searchcontainer">
                                 <form class="menu-search-form navbar-form-nav" action="/search.html" method="GET"
                                     role="search">
-                                    <a href="/search.html"><img
-                                            src="/etc.clientlibs/honda/clientlibs/clientlib-site/resources/images/svg/headerlogos/Search.svg"
+                                    <a href="/search.html"><img src="${properties.searchIcon}"
                                             alt="Search bar">
                                         <div class="searchtext">Search</div>
                                     </a>
@@ -27,19 +26,12 @@
                                         value="/content/elavon/en-gb/search.html">
                                 </form>
                             </div>
-                            <div class="loginicon">
-                                <a aria-label="Sign in" class="button small" href="/login.html" target="_blank"
-                                    role=""><img
-                                        src="/etc.clientlibs/elavonglobal/clientlibs/clientlib-site/resources/images/svg/headerlogos/user.svg"
-                                        alt="login icon">
-                                    <div class="searchtext">Sign in</div>
-                                </a>
-                            </div>
+                            
                             <div class="country">
                                 <a href="#" aria-label="UK">
                                     <span>
                                         <span class="locationFlag">
-                                            <img src="/content/dam/elavon/en-gb/v2/icons/country-flags/UK.svg"
+                                            <img src="${properties.cIcon}"
                                                 title="UK" alt="uk">
                                         </span>
                                     </span>
